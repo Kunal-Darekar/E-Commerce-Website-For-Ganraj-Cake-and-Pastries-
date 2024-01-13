@@ -1,1 +1,2 @@
 # E-Commerce-Website-For-Ganraj-Cake-and-Pastries-
+Developed a comprehensive E-Commerce website for Ganraj Cake and Pastries using PHP, HTML, JavaScript, CSS, and XAMPP. The website encompasses a range of features including user authentication, product catalog with dynamic loading from PHPMyAdmin database, order processing, shopping cart functionality, and a contact option for users to get in touch with the developer.
