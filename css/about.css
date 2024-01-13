@@ -1,0 +1,336 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    width: 100vw;
+    min-height: 100vh;
+}
+
+header {
+    height: 9vh;
+    width: 100vw;
+    background-color: #fdbaf8;
+    display: inline-flex;
+    box-shadow: 0px 10px 5px rgba(150, 27, 117, 0.449);
+    position: fixed;
+    top: 0;
+    display: grid;
+    grid-template-columns: 1fr 44vw;
+    padding-left: 2vw;
+
+}
+
+/* first part */
+.aa {
+    font-size: 3.5vw;
+    font-family: 'Niconne', cursive;
+    height: 9vh;
+    width: 40vw;
+}
+
+.aa:hover {
+    text-shadow: 0 2px 1px #ffffff,
+        -1px 3px 1px #ffffff,
+        -2px 5px 1px #ffffff;
+}
+
+/* second part */
+.ab {
+    font-size: 1.6vw;
+    height: 9vh;
+}
+
+.ab ul li {
+    display: inline-block;
+    margin: 2.3vh 1vw 0vh 1vw;
+
+}
+
+.ab ul li a {
+    text-decoration: none;
+    color: #060443;
+    font-size: 0.8em;
+    font-family: Alkatra;
+}
+
+.ab ul li a:hover {
+    text-shadow: 0 13.36px 8.896px #c4b59d, 0 -2px 1px
+}
+
+/* secon */
+
+.dropbtn {
+    color: white;
+    border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+
+}
+
+.dropdown:hover {
+    cursor: pointer;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 6vw;
+    min-height: 14vh;
+    margin-left: 2vw;
+    border-radius: 6px;
+    text-align: center;
+    background-color: #fdbaf8;
+    ;
+    box-shadow: 0px 10px 5px rgba(150, 27, 117, 0.449);
+    text-align: center;
+}
+
+.dropdown-content a {
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    cursor: pointer;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    cursor: pointer;
+}
+
+.container {
+    height: 180vh;
+    width: 92vw;
+    margin: 10.7vh 4vw 0vw 4vw;
+    box-sizing: border-box;
+    box-shadow: 0px 10px 5px rgba(203, 13, 175, 0.449);
+
+}
+
+.container1 {
+    height: 60vh;
+    width: 92vw;
+    display: inline-flex;
+    box-sizing: border-box;
+    /* border-bottom: 1px solid black; */
+}
+
+.clock {
+    font-family: Digital-7;
+    font-size: 1.2rem;
+    color: green;
+    position: absolute;
+    right: 7vw;
+    top: 11vh;
+    z-index: -1;
+}
+
+.container_a {
+    height: 50vh;
+    width: 40vw;
+    margin: 5vh 0vw 5vh 5vw;
+    padding: 2vh 3.2vw 0vh 3.2vh;
+
+}
+
+.font_welcome {
+
+    font-size: 2rem;
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+    margin-bottom: 4vh;
+
+
+}
+
+.prg {
+    font-family: alkatra;
+}
+
+.explore_and_shop_button {
+    height: 8vh;
+    width: 30vw;
+    margin: 4vh 0vw 0vh 8vw;
+    font-family: alkatra;
+
+}
+
+.explore_and_shop_button a {
+    padding: 0.5em;
+    border-radius: 4px;
+    background-color: rgb(176, 21, 210);
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    width: 12vw;
+    padding: 0.6vh 4vw 0.6vh 4vw;
+    font-size: 1vw;
+}
+
+.explore_and_shop_button a:hover {
+    background-color: rgb(125, 12, 150);
+
+}
+
+
+
+/* container b */
+.container_b {
+    height: 50vh;
+    width: 40vw;
+    margin: 5vh 0vw 5vh 5vw;
+    border: 0.5em ridge rgb(227, 24, 173);
+    size: 200px;
+    box-shadow: 15px 10px 5px rgba(203, 13, 175, 0.449);
+}
+
+.container_b img {
+
+    height: 47.7vh;
+    width: 38.99vw;
+    object-fit: fill;
+
+}
+
+
+
+
+/* container 2 */
+
+
+.container2 {
+    margin: 10vh 0vw 0vh 0vw;
+    height: 110vh;
+    width: 92vw;
+    /* border: 1px solid red; */
+}
+
+/* container 2 header */
+.container2_head {
+    height: 12vh;
+    width: 92vw;
+    font-size: 3rem;
+    text-align: center;
+    font-family: 'Splash', cursive;
+    color: lime;
+}
+
+.container2_body {
+    height: 90vh;
+    width: 91vw;
+    /* border: 1px solid red; */
+    display: inline-flex;
+    background-color: white;
+}
+
+.container2_body1 {
+    height: 70vh;
+    width: 40vw;
+    margin: 6vh 0vw 6vh 4vw;
+    box-shadow: 15px 10px 5px rgba(203, 13, 175, 0.449);
+    box-shadow: 0px 9px 30px rgba(255, 149, 5, 0.3);
+}
+
+.container2_body1 img {
+    height: 69.7vh;
+    width: 39.9vw;
+}
+
+.container2_body1 a {
+
+    border-radius: 0.6em;
+    padding: 1.2vh 2vw;
+    background-color: rgb(176, 21, 210);
+    color: white;
+    text-decoration: none;
+    position: relative;
+    left: 14.7vw;
+    top: 2.5vh;
+
+
+}
+
+.container2_body1 a:hover {
+    background-color: rgb(108, 11, 130);
+
+}
+
+
+/* visit our store */
+.container2_body2 {
+    height: 70vh;
+    width: 40vw;
+    margin: 6vh 0vw 6vh 4vw;
+    box-shadow: 15px 10px 5px rgba(203, 13, 175, 0.449);
+    box-shadow: 0px 9px 30px rgba(255, 149, 5, 0.3);
+
+}
+
+.container2_body2 img {
+    height: 69.7vh;
+    width: 39.9vw;
+}
+
+.container2_body2 a {
+
+    border-radius: 0.6em;
+    padding: 1.2vh 2vw;
+    background-color: rgb(176, 21, 210);
+    color: white;
+    text-decoration: none;
+    position: relative;
+    left: 15.5vw;
+    top: 2.5vh;
+
+}
+
+.container2_body2 a:hover {
+    background-color: rgb(108, 11, 130);
+}
+
+
+
+/* footer */
+footer {
+    height: 12vh;
+    width: 100vw;
+    padding: 4vh 0vw 2vh 6vw;
+    display: inline-flex;
+
+}
+
+.leftftr {
+    height: 5vh;
+    width: 60vw;
+    font-family: alkatra;
+    font-size: 1.4vw;
+}
+
+.rightftr {
+    height: 5vh;
+    width: 40vw;
+    padding-left: 2vw;
+    padding-top: 0.5vw;
+    font-size: 1rem;
+
+}
+
+footer .rightftr a {
+    text-decoration: none;
+    font-family: alkatra;
+    padding-left: 1.8vw;
+    padding-right: 1vw;
+
+}
+
+.rightftr a:hover {
+    text-decoration: underline;
+}
