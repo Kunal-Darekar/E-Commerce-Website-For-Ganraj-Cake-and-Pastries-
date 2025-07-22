@@ -1,0 +1,223 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    width: 100vw;
+    min-height: 100vh;
+}
+
+header {
+    height: 9vh;
+    width: 100vw;
+    background-color: #fdbaf8;
+    display: inline-flex;
+    box-shadow: 0px 10px 5px rgba(150, 27, 117, 0.449);
+    position: fixed;
+    top: 0;
+    display: grid;
+    grid-template-columns: 1fr 44vw;
+    padding-left: 2vw;
+
+}
+
+/* first part */
+.aa {
+    font-size: 3.5vw;
+    font-family: 'Niconne', cursive;
+    height: 9vh;
+    width: 40vw;
+}
+
+.aa:hover {
+    text-shadow: 0 2px 1px #ffffff,
+        -1px 3px 1px #ffffff,
+        -2px 5px 1px #ffffff;
+}
+
+/* second part */
+.ab {
+    font-size: 1.6vw;
+    height: 9vh;
+}
+
+.ab ul li {
+    display: inline-block;
+    margin: 2.3vh 1vw 0vh 1vw;
+
+}
+
+.ab ul li a {
+    text-decoration: none;
+    color: #060443;
+    font-size: 0.8em;
+    font-family: Alkatra;
+}
+
+.ab ul li a:hover {
+    text-shadow: 0 13.36px 8.896px #c4b59d, 0 -2px 1px
+}
+
+/* secon */
+
+.dropbtn {
+    color: white;
+    border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+
+}
+
+.dropdown:hover {
+    cursor: pointer;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 6vw;
+    min-height: 14vh;
+    margin-left: 2vw;
+    border-radius: 6px;
+    text-align: center;
+    background-color: #fdbaf8;
+    ;
+    box-shadow: 0px 10px 5px rgba(150, 27, 117, 0.449);
+    text-align: center;
+}
+
+.dropdown-content a {
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    cursor: pointer;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    cursor: pointer;
+}
+/* cn */
+
+.cn1 {
+    min-height: 520vh;
+    min-width: 80vw;
+    background: transparent;
+    margin: 10.7vh 4vw 0vw 4vw;
+    z-index: -10;
+    position: absolute;
+    top: 10vh;
+    left: 10vw;
+    box-shadow: 33px 34px 100px rgba(0, 0, 0, 0.15);
+    display:block;
+}
+.cn1 h1
+{
+    font-family: cursive;
+    font-size: 3rem;
+    color:#1d10d9;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-top: 2vh;
+}
+
+.cn1_1
+{
+    min-height:90vh;
+    min-width: 74vw;
+    max-width:78vw;
+    margin:2vh 0vw 0vh 1vw;
+    box-shadow: 4px 5px 15px rgb(255, 196, 0);
+    text-align: center;
+
+}
+.cn1_1 a
+{
+    text-decoration: none;
+}
+
+.cn1_1_1
+{
+    height:8vh;
+    width:76vw;
+    text-align: center;
+    margin-top: 2vh;
+}
+
+.cn1_1 img
+{
+  height:54vh;
+  width:59vw;
+  
+}
+
+
+.cn1_1 p
+{
+    font-family: alkatra;
+    font-size:1.4rem; 
+    color:rgb(0, 0, 0);
+}
+
+
+
+
+
+
+
+
+
+
+/* footer */
+footer {
+    position: relative;
+    top: 528vh;
+    height: 12vh;
+    width: 100vw;
+    padding: 4vh 0vw 2vh 16vw;
+    display: inline-flex;
+    font-size: 1.2vw;
+
+}
+
+.leftftr {
+    height: 5vh;
+    width: 60vw;
+    font-family: 'alkatra', cursive;
+    font-size: 1.2vw;
+}
+
+.rightftr {
+    height: 5vh;
+    width: 40vw;
+    padding-left: 0;
+    padding-top: 0.5vw;
+    font-size: 1vw;
+
+}
+
+
+
+
+footer .rightftr a {
+    text-decoration: none;
+    font-family: alkatra;
+    padding-left: 0.4vw;
+    padding-right: 1vw;
+    color: red;
+
+}
+
+.rightftr a:hover {
+    text-decoration: underline;
+    text-shadow: 15px 10px 5px rgba(0, 0, 0, 0.449);
+}

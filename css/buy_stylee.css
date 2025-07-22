@@ -1,0 +1,372 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: azure;
+    background-image: url(images/sback.jpg);
+    background-size: contain;
+}
+
+header {
+    height: 9vh;
+    width: 100vw;
+    background-color: #fdbaf8;
+    padding-left: 2vw;
+    display: inline-flex;
+    box-shadow: 0px 10px 5px rgba(150, 27, 117, 0.449);
+    position: fixed;
+    top: 0;
+
+}
+
+/* first part */
+.aa {
+    font-size: 3.5vw;
+    font-family: 'Niconne', cursive;
+    height: 9vh;
+    width: 40vw;
+}
+
+.aa :hover {
+    color: white;
+    text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+}
+
+/* second part */
+.ab {
+    font-size: 1.6vw;
+    height: 9vh;
+    width: 40vw;
+
+}
+
+.ab ul li {
+    display: inline-block;
+    margin: 2.3vh 0vw 0vh 1vw;
+
+}
+
+.ab ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 0.8em;
+    font-family: Alkatra;
+}
+
+.ab ul li a:hover {
+
+    text-decoration: underline;
+}
+
+/* third part */
+.ac {
+    height: 9vh;
+    width: 20vw;
+    font-size: 1.6vw;
+}
+
+.content {
+    height: 9vh;
+    width: 20vw;
+
+}
+
+.content h5 {
+    color: rgb(78, 76, 76);
+    display: inline-flex;
+    font-family: 'Niconne', cursive;
+    position: relative;
+    left: 0vw;
+    top: 2vh;
+}
+
+.content h6 {
+    color: rgb(71, 132, 173);
+    display: inline-flex;
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+    position: relative;
+    top: 2vh;
+    text-shadow: 1px 1px 0px rgb(255, 255, 255);
+
+}
+
+.logout_btn a {
+    text-decoration: none;
+    color: white;
+    background-color: red;
+    padding: 1vh 1vw;
+    border-radius: 20px;
+    font-size: 1rem;
+    position: relative;
+    left: 13vw;
+    top: -2vh;
+    display: inline-flex;
+}
+
+.logout_btn a:hover {
+    text-decoration: none;
+    color: white;
+    background: #408e9f;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+}
+
+
+.container {
+
+    width: 50vw;
+    padding-top: 12vh;
+    background: transparent;
+    box-sizing: border-box;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 12vh 12vh;
+    padding-bottom: 4vh;
+    margin: auto;
+    min-height: 120vh;
+ 
+
+}
+
+.container_head {
+    width: fit-content;
+    height: 4vh;
+    font-size: 2vw;
+    padding-left: 2vw;
+    border: 1px solid red;
+}
+
+.container_1 form {
+    width: 44vw;
+    height: 10vh;
+    margin: auto;
+    margin-top: 2vh;
+    padding-top: 1vw;
+    background: transparent;
+    box-sizing: border-box;
+    box-shadow: 0px 9px 30px rgba(255, 149, 5, 0.3);
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.24);
+    border-radius: 20px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 8vw 1fr 1fr 4vw;
+    /* grid-template-rows: 2vh 2vh; */
+    font-family: Domine;
+    font-family: Alkatra;
+    z-index: -19;
+    
+}
+
+.container form img {
+    width: 3vw;
+    height: 3vw;
+    border-radius: 100%;
+    float: left;
+    margin-left: 3vw
+}
+
+
+.container_1_head {
+    font-size: 1.2vw;
+    min-height: 1vw;
+    width: 18vw;
+    height: 3vw;
+    /* border: 1px solid black; */
+    float: left;
+    padding-top: 1vh;
+}
+
+.container_1_price {
+    margin-bottom: 2.8vw;
+    font-size: 1.4vw;
+    width: 10vw;
+    height: 3vw;
+    /* border: 1px solid black; */
+    float: left;
+    padding-top: 1vh;
+}
+
+.container_1_btn {
+    margin-top: -1vh;
+    font-size: 0.4vw;
+    width: 3vw;
+    height: 3vw;
+    float: left;
+}
+
+.removebtn {
+    
+    color: rgb(107, 6, 6);
+    /* background-color: rgb(78, 76, 76); */
+    border-radius: 100%;
+    text-decoration: none;
+    float: left;
+    border: none;
+    background-color: transparent;
+    /* border: 1px solid black;; */
+}
+
+.removebtn:hover {
+    cursor: pointer;
+}
+
+.container_2 {
+    width: 44vw;
+    min-height: 46vh;
+    margin: auto;
+    margin-top: 2vh;
+    padding-top: 1vw;
+    background: transparent;
+    box-sizing: border-box;
+    box-shadow: 0px 9px 30px rgba(255, 149, 5, 0.3);
+    text-align: center;
+    font-family: Domine;
+    /* z-index: -1; */
+}
+
+.topic {
+    font-size: 2rem;
+    color: #ba24c2;
+    text-align: center;
+    font-family: 'Splash', cursive;
+    margin-top: 4vh;
+}
+
+
+h2 {
+    font-weight: 300;
+    text-align: center;
+}
+
+p {
+    position: relative;
+}
+
+
+
+
+
+#login-form-wrap {
+    text-align: center;
+    margin-top: 4vh;
+  
+}
+
+#login-form {
+    padding: 0 60px;
+    display: flexbox;
+}
+
+input {
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    outline: none;
+    line-height: 60px;
+    border-radius: 4px;
+}
+
+input[type="text"],
+input[type="email"] {
+    width: 30vw;
+    padding: 0 0 0 10px;
+    height: 6vh;
+    margin-top: 2vh;
+    color: #8a8b8e;
+    border: 1px solid #c2c0ca;
+    font-style: normal;
+    font-size: 16px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    position: relative;
+    display: inline-block;
+    background: none;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus {
+    border-color: #3ca9e2;
+}
+
+
+
+
+
+
+
+
+.placeord {
+    border: none;
+    display: block;
+    background-color: rgb(37, 118, 0);
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+    font-size: 18px;
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    width: 30vw;
+    margin-top: 6vh;
+    margin-bottom: 4vh;
+}
+
+.placeord:hover {
+   
+    background-color: rgba(60, 181, 4, 0.932);
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+
+
+/* footer */
+footer {
+    height: 12vh;
+    width: 100vw;
+    padding: 4vh 0vw 2vh 4vw;
+    display: inline-flex;
+
+}
+
+.leftftr {
+    height: 5vh;
+    width: 60vw;
+    font-family: 'Niconne', cursive;
+    font-size: 1.5rem;
+    color: rgb(161, 6, 133);
+}
+
+.rightftr {
+    height: 5vh;
+    width: 40vw;
+    padding-left: 2vw;
+    padding-top: 0.5vw;
+    font-size: 1rem;
+
+}
+
+footer .rightftr a {
+    text-decoration: none;
+    font-family: 'Chewy', cursive;
+    padding-left: 1vw;
+    padding-right: 1vw;
+
+}
+
+.rightftr a:hover {
+    color: lime;
+    background-color: rgb(176, 21, 210);
+    padding-right: 1vw;
+    border-radius: 20px;
+    text-decoration: dashed underline rgb(77, 225, 9);
+    box-shadow: 15px 10px 5px rgba(0, 0, 0, 0.449);
+
+}

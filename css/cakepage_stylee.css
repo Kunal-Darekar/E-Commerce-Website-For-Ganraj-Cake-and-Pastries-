@@ -1,0 +1,261 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: azure;
+    background-image: url(images/sback.jpg);
+    background-size: contain;
+}
+
+header {
+    height: 9vh;
+    width: 100vw;
+    background-color: #fdbaf8;
+    padding-left: 2vw;
+    display: inline-flex;
+    box-shadow: 0px 10px 5px rgba(150, 27, 117, 0.449);
+    position: fixed;
+    top: 0;
+
+}
+
+/* first part */
+.aa {
+    font-size: 3.5vw;
+    font-family: 'Niconne', cursive;
+    height: 9vh;
+    width: 40vw;
+}
+
+.aa :hover {
+    color: white;
+    text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+}
+
+/* second part */
+.ab {
+    font-size: 1.6vw;
+    height: 9vh;
+    width: 40vw;
+
+}
+
+.ab ul li {
+    display: inline-block;
+    margin: 2.3vh 0vw 0vh 1vw;
+
+}
+
+.ab ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 0.8em;
+    font-family: Alkatra;
+}
+
+.ab ul li a:hover {
+
+    text-decoration: underline;
+}
+
+/* third part */
+.ac {
+    height: 9vh;
+    width: 20vw;
+    font-size: 1.6vw;
+}
+
+.content {
+    height: 9vh;
+    width: 20vw;
+
+}
+
+.content h5 {
+    color: rgb(78, 76, 76);
+    display: inline-flex;
+    font-family: 'Niconne', cursive;
+    position: relative;
+    left: 0vw;
+    top: 2vh;
+}
+
+.content h6 {
+    color: rgb(71, 132, 173);
+    display: inline-flex;
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+    position: relative;
+    top: 2vh;
+    text-shadow: 1px 1px 0px rgb(255, 255, 255);
+
+}
+
+.logout_btn a {
+    text-decoration: none;
+    color: white;
+    background-color: red;
+    padding: 1vh 1vw;
+    border-radius: 20px;
+    font-size: 1rem;
+    position: relative;
+    left: 13vw;
+    top: -2vh;
+    display: inline-flex;
+}
+
+.logout_btn a:hover {
+    text-decoration: none;
+    color: white;
+    background: #408e9f;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+}
+
+
+.container {
+
+    width: 96vw;
+    min-height: 92vh;
+    margin: auto;
+    padding-top: 12vh;
+    background: transparent;
+    box-sizing: border-box;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 65vh 65vh;
+    padding-bottom: 4vh;
+
+    margin: 10.7vh 4vw 0vw 4vw;
+
+}
+
+.container_1 form {
+    width: 30vw;
+    height: 60vh;
+    margin: auto;
+    margin-top: 2vh;
+    background: transparent;
+    box-sizing: border-box;
+    box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    border-radius: 4px;
+    text-align: center;
+}
+
+.container form img {
+    width: 13vw;
+    height: 12vw;
+    border-radius: 100%;
+    margin-top: 4vh;
+}
+
+.container_1_head {
+    color: #000000;
+    font-family: Rubik Gemstones;
+    font-size: 2vw;
+}
+
+.container_1_price {
+    margin-top: 2vh;
+    font-size: 1.4vw;
+}
+
+.container_1_btn {
+    margin: auto;
+    text-align: center;
+    width: fit-content;
+    margin-top: 8vh;
+}
+.buybtn {
+    height: 6vh;
+    width: 12vw;
+    color: white;
+    background-color: rgb(15, 216, 35);
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 1.2VW;
+    font-weight: bold;
+    float: left;
+    border: none;
+}
+
+.buybtn:hover {
+    
+    background-color: rgb(0, 255, 26);
+    cursor: pointer;
+    font-size: 1.3vw;
+    
+}
+
+.cartbtn {
+    height: 6vh;
+    width: 12vw;
+    color: white;
+    background-color: rgb(207, 24, 201);
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 1.2VW;
+    font-weight: bold;
+    float: left;
+    margin-left: 1vw;
+    border: none;
+}
+
+.cartbtn:hover {
+
+    background-color: rgb(251, 0, 255);
+    cursor: pointer;
+    font-size: 1.3vw;
+}
+
+
+
+
+
+
+/* footer */
+footer {
+    height: 12vh;
+    width: 100vw;
+    padding: 4vh 0vw 2vh 4vw;
+    display: inline-flex;
+
+}
+
+.leftftr {
+    height: 5vh;
+    width: 60vw;
+    font-family: 'Niconne', cursive;
+    font-size: 1.5rem;
+    color: rgb(161, 6, 133);
+}
+
+.rightftr {
+    height: 5vh;
+    width: 40vw;
+    padding-left: 2vw;
+    padding-top: 0.5vw;
+    font-size: 1rem;
+
+}
+
+footer .rightftr a {
+    text-decoration: none;
+    font-family: 'Chewy', cursive;
+    padding-left: 1vw;
+    padding-right: 1vw;
+
+}
+
+.rightftr a:hover {
+    color: lime;
+    background-color: rgb(176, 21, 210);
+    padding-right: 1vw;
+    border-radius: 20px;
+    text-decoration: dashed underline rgb(77, 225, 9);
+    box-shadow: 15px 10px 5px rgba(0, 0, 0, 0.449);
+
+}

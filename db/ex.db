@@ -1,0 +1,155 @@
+*** FOR USERS TABLE ***
+
+
+CREATE TABLE `users` (
+  `id` int(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+  `username` varchar(100) NOT NULL,
+  `mobilenumber` varchar(100) NOT NULL,
+  `email` varchar(100) NOT NULL,
+  `username` varchar(100) NOT NULL,
+  `password` varchar(100) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+
+*** FOR ORDERS TABLE ***
+
+
+CREATE TABLE `orders` (
+  `id` int(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+  `name` varchar(100) NOT NULL,
+  `mobilenumber` varchar(100) NOT NULL,
+  `caketype` varchar(100) NOT NULL,
+  `cakeprice` varchar(100) NOT NULL,
+  `noofitems` varchar(100) NOT NULL
+  `totalamount` varchar(100) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+
+*** FOR MESSAGES TABLE ***
+
+
+CREATE TABLE `messages` (
+  `id` int(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+  `name` varchar(100) NOT NULL,
+  `email` varchar(100) NOT NULL,
+  `msg` varchar(100) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*** 3d cake db ** 
+
+*** FOR CREATING CAKE TABLE ***
+CREATE TABLE `3d` (
+  `id` int(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+  `cakeimg` varchar(100) NOT NULL,
+  `caketype` varchar(100) NOT NULL,
+  `cakeprice` varchar(100) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+
+
+INSERT INTO 3d (`cakeimg`, `caketype`,`cakeprice`) VALUES('images/3d/3d1.jpg', 'Proposal Cake','3000');
+
+INSERT INTO 3d (`cakeimg`, `caketype`,`cakeprice`) VALUES('images/3d/3d2.jpg', 'T Shirt Cake','3000');
+
+INSERT INTO 3d (`cakeimg`, `caketype`,`cakeprice`) VALUES('images/3d/3d3.jpg', 'Pool Cake','3000');
+
+INSERT INTO 3d (`cakeimg`, `caketype`,`cakeprice`) VALUES('images/3d/3d4.jpg', 'Monkey Cake','2500');
+
+
+INSERT INTO 3d (`cakeimg`, `caketype`,`cakeprice`) VALUES('images/3d/3d5.jpg', 'Teddy Bear Cake','2500');
+
+
+INSERT INTO 3d (`cakeimg`, `caketype`,`cakeprice`) VALUES('images/3d/3d6.jpg', 'Minion Cake','2500');
+
+
+INSERT INTO 3d (`cakeimg`, `caketype`,`cakeprice`) VALUES('images/3d/3d7.jpg', 'Aeroplane Cake','2500');
+
+
+INSERT INTO 3d (`cakeimg`, `caketype`,`cakeprice`) VALUES('images/3d/3d8.jpg', 'Piano and Guitar cake','3000');
+
+
+INSERT INTO 3d (`cakeimg`, `caketype`,`cakeprice`) VALUES('images/3d/3d9.jpg', 'Snowman Cake','2500');
+
+
+INSERT INTO 3d (`cakeimg`, `caketype`,`cakeprice`) VALUES('images/3d/3d10.jpg', 'Doctor Cake','2500');
+
+
+INSERT INTO 3d (`cakeimg`, `caketype`,`cakeprice`) VALUES('images/3d/3d11.jpg', 'Stadium Cake','1500');
+
+
+INSERT INTO 3d (`cakeimg`, `caketype`,`cakeprice`) VALUES('images/3d/3d12.jpg', 'Makeup Cake','4500');
+
+
+INSERT INTO 3d (`cakeimg`, `caketype`,`cakeprice`) VALUES('images/3d/3d13.jpg', 'Football Stadium Cake','3000');
+
+
+INSERT INTO 3d (`cakeimg`, `caketype`,`cakeprice`) VALUES('images/3d/3d14.jpg', 'Jungle Party Cake','3000');
+
+
+INSERT INTO 3d (`cakeimg`, `caketype`,`cakeprice`) VALUES('images/3d/3d15.jpg', 'Mickey Mouse','3000');
+
+
+INSERT INTO 3d (`cakeimg`, `caketype`,`cakeprice`) VALUES('images/3d/3d16.jpg', 'Zoo Zoo Cake','4500');
+
+
+INSERT INTO 3d (`cakeimg`, `caketype`,`cakeprice`) VALUES('images/3d/3d17.jpg', 'Elephant Birthday Cake','4000');
+
+
+INSERT INTO 3d (`cakeimg`, `caketype`,`cakeprice`) VALUES('images/3d/3d18.jpg', 'Mickey Mouse','3000');
+
+
+INSERT INTO 3d (`cakeimg`, `caketype`,`cakeprice`) VALUES('images/3d/3d19.jpg', '3D Gift Box','3000');
+
+
+INSERT INTO 3d (`cakeimg`, `caketype`,`cakeprice`) VALUES('images/3d/3d20.jpg', 'Mickey Club House','3000');
+
+
+INSERT INTO 3d (`cakeimg`, `caketype`,`cakeprice`) VALUES('images/3d/3d21.jpg', 'Hot Wheel Tier','2500');
+
+
+INSERT INTO 3d (`cakeimg`, `caketype`,`cakeprice`) VALUES('images/3d/3d22.jpg', 'Minnie Mouse','3000');
+
+
+INSERT INTO 3d (`cakeimg`, `caketype`,`cakeprice`) VALUES('images/3d/3d23.jpg', 'Baby Shower Cake','1500');
+
+
+INSERT INTO 3d (`cakeimg`, `caketype`,`cakeprice`) VALUES('images/3d/3d24.jpg', 'Makeup Theme Cake','3500');
+
+
+INSERT INTO 3d (`cakeimg`, `caketype`,`cakeprice`) VALUES('images/3d/3d25.jpg', 'Angry Birds Themed Cake','3000');
+
+
+INSERT INTO 3d (`cakeimg`, `caketype`,`cakeprice`) VALUES('images/3d/3d26.jpg', 'Pink Teddy Bear Cake','4000');
+
+
+INSERT INTO 3d (`cakeimg`, `caketype`,`cakeprice`) VALUES('images/3d/3d27.jpg', 'Hello Kitty Cartoon Cake','3000');
+
+
+INSERT INTO 3d (`cakeimg`, `caketype`,`cakeprice`) VALUES('images/3d/3d28.jpg', 'Candy Theme Cake','3000');
+
+
+INSERT INTO 3d (`cakeimg`, `caketype`,`cakeprice`) VALUES('images/3d/3d29.jpg', 'Heart Shape Cake','2500');
+
